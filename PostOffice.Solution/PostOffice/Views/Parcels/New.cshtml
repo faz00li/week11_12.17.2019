@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Parcel</title>
+  </head>
+  <body>
+    <div class="container">
+     <h1>Add Parcel Details</h1>
+     <div>
+       <form action="/parcels" method="post">
+         <div class="form-group">
+           <label for="description">Description</label>
+           <input id="description" name="description" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="height">Height</label>
+           <input id="height" name="height" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="width">Width</label>
+           <input id="width" name="width" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="weight">Weight</label>
+           <input id="weight" name="weight" class="form-control" type="text">
+         </div>
+         <button type="submit" class="btn">Add Parcel</button>
+       </form>
+
+         <a href="/parcels">Inventory</a>
+         <a href="/">Return Home</a>
+      </div>
+    </div>
+  </body>
+</html>
