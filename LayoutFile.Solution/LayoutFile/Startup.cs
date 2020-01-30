@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ToDoList
+namespace LayoutFile
 {
   public class Startup
   {
@@ -38,9 +38,8 @@ namespace ToDoList
 
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Something went wrong!");
+        await context.Response.WriteAsync("Hello Eddie!");
       });
-
     }
   }
 }
